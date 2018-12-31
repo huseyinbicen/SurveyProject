@@ -1,0 +1,110 @@
+﻿* {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body {
+    background: #1b1b2b;
+    padding-left:75px;
+    padding-right:75px;
+    padding-top:10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: #c0c0c0;
+    font-weight: 100;
+}
+
+.btn {
+    color: #999;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+    .btn:hover {
+        border: none;
+        background: rgba(0, 0, 0, 0.4);
+        background: #fff;
+        padding: 20px 20px;
+        color: #1b1b1b;
+    }
+
+.txtBox {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 #FFF, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    box-shadow: 0 1px 0 #FFF, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #EAE7E7;
+    border: 1px solid #C8C8C8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 15px 10px 15px 40px;
+    width: 270px;
+}
+    .txtBox:focus {
+        -webkit-box-shadow: 0 0 2px #ED1C24 inset;
+        -moz-box-shadow: 0 0 2px #ed1c24 inset;
+        -ms-box-shadow: 0 0 2px #ed1c24 inset;
+        -o-box-shadow: 0 0 2px #ed1c24 inset;
+        box-shadow: 0 0 2px #ED1C24 inset;
+        background-color: #FFF;
+        border: 1px solid #ED1C24;
+        outline: none;
+    }
+
+.BeyazYazi {
+    color: azure;
+}
+
+
+.footer {
+    font-size: 8px;
+    color: #fff;
+    clear: both;
+    display: block;
+    letter-spacing: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    width: 210px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.isa_info {
+    color: #00529B;
+}
+
+.isa_success {
+    color: #4F8A10;
+}
+
+.isa_warning {
+    color: #9F6000;
+}
+
+.isa_error {
+    color: #D8000C;
+}

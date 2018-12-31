@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Submain.master.cs" Inherits="WebSite.Account.Submain" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Anketistan - Türkiyenin Hızlı Anket Sitesi</title>
+    <link href="../Style/Style4Default.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            &nbsp&nbsp
+            <asp:Label ID="lbl_Username" runat="server" Text="Hoşgeldin Hüseyin Biçen" CssClass="BeyazYazi" Font-Size="X-Large"></asp:Label>&nbsp&nbsp
+            <br />
+            <br />
+            <a href="Home.aspx" class="btn">Anasayfa</a>&nbsp&nbsp
+            <a href="Create.aspx" class="btn">Oluştur</a>&nbsp&nbsp
+            <a href="Edit.aspx" class="btn">Düzenle</a>&nbsp&nbsp
+            <a href="Delete.aspx" class="btn">Sil</a>&nbsp&nbsp
+            <a href="Share.aspx" class="btn">Paylaş</a>&nbsp&nbsp
+            <a href="Result.aspx" class="btn">Sonuç</a>&nbsp&nbsp
+            <a href="Profile.aspx" class="btn">Profil</a>&nbsp&nbsp
+            <asp:Button ID="btn_Logout" runat="server" Text="Çıkış" CssClass="btn" OnClick="btn_Logout_Click"  />&nbsp&nbsp
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <a href="https://www.huseyinbicen.com" target="_blank" class="footer">Created by Hüseyin Biçen</a>
+        </div>
+    </form>
+</body>
+</html>
