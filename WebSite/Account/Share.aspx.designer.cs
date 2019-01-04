@@ -7,27 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebSite {
+namespace WebSite.Account {
     
     
-    public partial class ForgetPassword {
+    public partial class Share {
         
         /// <summary>
-        /// txt_Mail control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Mail;
-        
-        /// <summary>
-        /// sendMessageButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendMessageButton;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

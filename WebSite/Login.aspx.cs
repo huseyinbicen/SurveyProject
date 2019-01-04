@@ -17,10 +17,15 @@ namespace WebSite
 
         protected void sendMessageButton_Click(object sender, EventArgs e)
         {
+
+            SurveyContext ctx = new SurveyContext();
+
             if (IsvalidUser(username.Text, Password.Text))
             {
                 Session["Username"] = username.Text;
                 Session["Login_Station"] = "OK";
+
+                Session["Id"] = ctx.Users.Where(x => x.Username == username.Text && x.Password == Password.Text).FirstOrDefault().Id;
 
                 HttpCookie cerez = new HttpCookie("CookieAktar");
                 cerez["Username"] = username.Text;
@@ -46,7 +51,7 @@ namespace WebSite
                      && p.Password == password
                      select p;
 
-            Session["Id"] = ctx.Users.Where(x => x.Username == userName && x.Password == password).FirstOrDefault().Id;
+            
 
             if (q1.Any())
             {

@@ -10,7 +10,16 @@
 namespace WebSite {
     
     
-    public partial class Contact {
+    public partial class AnswerSurvey {
+        
+        /// <summary>
+        /// form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
         /// txt_Name control.
@@ -31,30 +40,39 @@ namespace WebSite {
         protected global::System.Web.UI.WebControls.TextBox txt_Mail;
         
         /// <summary>
-        /// txt_Phone control.
+        /// lbl_Question control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Phone;
+        protected global::System.Web.UI.WebControls.Label lbl_Question;
         
         /// <summary>
-        /// txt_Message control.
+        /// rb_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Message;
+        protected global::System.Web.UI.WebControls.RadioButton rb_1;
         
         /// <summary>
-        /// sendMessageButton control.
+        /// rb_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendMessageButton;
+        protected global::System.Web.UI.WebControls.RadioButton rb_2;
+        
+        /// <summary>
+        /// btn_Cevap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Cevap;
     }
 }

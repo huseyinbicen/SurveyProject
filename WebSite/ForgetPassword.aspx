@@ -25,7 +25,7 @@
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
                             <label>E-Posta</label>
-                            <asp:TextBox ID="PasswordAgain" class="form-control" runat="server" placeholder="E-Posta" required="required" data-validation-required-message="Lütfen, E-Posta giriniz !!!"></asp:TextBox>
+                            <asp:TextBox ID="txt_Mail" class="form-control" runat="server" placeholder="E-Posta" required="required" data-validation-required-message="Lütfen, E-Posta giriniz !!!"></asp:TextBox>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                     <br>
                     <div id="Başarılı"></div>
                     <div class="form-group">
-                        <asp:Button ID="sendMessageButton" class="btn btn-primary btn-xl" runat="server" Text="Şifreyi Sıfırla" />
+                        <asp:Button ID="sendMessageButton" class="btn btn-primary btn-xl" runat="server" Text="Şifreyi Sıfırla" OnClick="sendMessageButton_Click" />
                     </div>
                 </form>
             </div>

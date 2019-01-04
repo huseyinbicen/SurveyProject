@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6">
-                    <img style="border-radius: 20px;" src="http://localhost:3233/image/res1.png" />
+                    <img style="border-radius: 20px;" src="image/res1.png" />
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6">
-                    <img style="border-radius: 20px;" src="http://localhost:3233/image/res2.png" />
+                    <img style="border-radius: 20px;" src="image/res2.png" />
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -30,13 +30,13 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6">
-                    <img style="border-radius: 20px;" src="http://localhost:3233/image/res3.png" />
+                    <img style="border-radius: 20px;" src="image/res3.png" />
                 </div>
                 <div class="col-lg-1"></div>
             </div>
             <br />
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="#">
+                <a class="btn btn-xl btn-outline-light" href="Logon.aspx">
                     <i class="fas fa-poll-h  mr-2"></i>
                     Şimdi Başla
                 </a>

@@ -20,7 +20,6 @@
             <a href="Home.aspx" class="btn">Anasayfa</a>&nbsp&nbsp
             <a href="Create.aspx" class="btn">Oluştur</a>&nbsp&nbsp
             <a href="Edit.aspx" class="btn">Düzenle</a>&nbsp&nbsp
-            <a href="Delete.aspx" class="btn">Sil</a>&nbsp&nbsp
             <a href="Share.aspx" class="btn">Paylaş</a>&nbsp&nbsp
             <a href="Result.aspx" class="btn">Sonuç</a>&nbsp&nbsp
             <a href="Profile.aspx" class="btn">Profil</a>&nbsp&nbsp

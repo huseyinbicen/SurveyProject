@@ -12,6 +12,7 @@ namespace WebSite.Database
         {
         }
 
+        public virtual DbSet<Answer> Answers { get; set; }
         public virtual DbSet<Survey> Surveys { get; set; }
         public virtual DbSet<User> Users { get; set; }
 

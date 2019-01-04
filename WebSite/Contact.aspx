@@ -17,35 +17,35 @@
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>İsim</label>
-                                <input class="form-control" id="name" type="text" placeholder="İsim" required="required" data-validation-required-message="Please enter your name.">
+                                <asp:TextBox ID="txt_Name" runat="server" class="form-control" placeholder="İsim" required="required" data-validation-required-message="Lütfen isminizi giriniz..." ></asp:TextBox>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>E-Posta</label>
-                                <input class="form-control" id="email" type="email" placeholder="E-Posta" required="required" data-validation-required-message="Please enter your email address.">
+                                <asp:TextBox ID="txt_Mail" runat="server" class="form-control" placeholder="E-Posta" required="required" data-validation-required-message="Lütfen Mail Adresinizi giriniz." ></asp:TextBox>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Telefon Numarası</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Telefon Numarası" required="required" data-validation-required-message="Please enter your phone number.">
+                                <asp:TextBox ID="txt_Phone" runat="server" class="form-control"  placeholder="Telefon Numarası" required="required" data-validation-required-message="Lütfen Telefon Numaranızı Giriniz.."></asp:TextBox>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Mesaj</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Mesaj" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <asp:TextBox ID="txt_Message" runat="server" class="form-control" rows="5" placeholder="Mesaj" required="required" data-validation-required-message="Lütfen mesajınızı Giriniz.." TextMode="MultiLine"></asp:TextBox>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <br>
                         <div id="Başarılı"></div>
                         <div class="form-group">
-                            <asp:Button ID="sendMessageButton" class="btn btn-primary btn-xl" runat="server" Text="Gönder" />
+                            <asp:Button ID="sendMessageButton" class="btn btn-primary btn-xl" runat="server" Text="Gönder" OnClick="sendMessageButton_Click" />
                         </div>
                     </form>
                 </div>

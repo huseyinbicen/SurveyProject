@@ -81,8 +81,12 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Account\Create.aspx" />
+    <Content Include="Account\Edit.aspx" />
     <Content Include="Account\Home.aspx" />
     <Content Include="Account\Profile.aspx" />
+    <Content Include="Account\Result.aspx" />
+    <Content Include="Account\Share.aspx" />
+    <Content Include="AnswerSurvey.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="ForgetPassword.aspx" />
@@ -1594,6 +1598,7 @@
     <Content Include="Style\freelancer.min.css" />
     <Content Include="Style\magnific-popup.css" />
     <Content Include="Style\Style4Default.css" />
+    <Content Include="Style\styleAnket.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1611,6 +1616,13 @@
     <Compile Include="Account\Create.aspx.designer.cs">
       <DependentUpon>Create.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Account\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1625,12 +1637,33 @@
     <Compile Include="Account\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Account\Result.aspx.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Result.aspx.designer.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Share.aspx.cs">
+      <DependentUpon>Share.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Share.aspx.designer.cs">
+      <DependentUpon>Share.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\Submain.Master.cs">
       <DependentUpon>Submain.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Submain.Master.designer.cs">
       <DependentUpon>Submain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AnswerSurvey.aspx.cs">
+      <DependentUpon>AnswerSurvey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnswerSurvey.aspx.designer.cs">
+      <DependentUpon>AnswerSurvey.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -1639,6 +1672,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Database\Answer.cs" />
     <Compile Include="Database\Survey.cs" />
     <Compile Include="Database\SurveyContext.cs" />
     <Compile Include="Database\User.cs" />
@@ -1713,6 +1747,7 @@
     <Content Include="Style\fontawesome-free\webfonts\fa-solid-900.ttf" />
     <Content Include="Style\fontawesome-free\webfonts\fa-solid-900.woff" />
     <Content Include="Style\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

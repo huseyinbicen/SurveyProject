@@ -1,16 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Account/Submain.Master" AutoEventWireup="true" CodeBehind="Create.aspx.cs" Inherits="WebSite.Account.Create" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script type="text/javascript">
-        var $button = document.querySelector('.button');
-        $button.addEventListener('click', function () {
-            var duration = 0.3,
-                delay = 0.08;
-            TweenMax.to($button, duration, { scaleY: 1.6, ease: Expo.easeOut });
-            TweenMax.to($button, duration, { scaleX: 1.2, scaleY: 1, ease: Back.easeOut, easeParams: [3], delay: delay });
-            TweenMax.to($button, duration * 1.25, { scaleX: 1, scaleY: 1, ease: Back.easeOut, easeParams: [6], delay: delay * 3 });
-        });
-    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
@@ -23,28 +13,7 @@
     <asp:TextBox ID="txt_Op1" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
     <br />
     <asp:Label ID="Label2" runat="server" Height="45px" Text="Seçenek 2 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op2" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label3" runat="server" Height="45px" Text="Seçenek 3 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op3" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label4" runat="server" Height="45px" Text="Seçenek 4 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op4" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label5" runat="server" Height="45px" Text="Seçenek 5 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op5" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label6" runat="server" Height="45px" Text="Seçenek 6 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op6" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label7" runat="server" Height="45px" Text="Seçenek 7 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op7" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label8" runat="server" Height="45px" Text="Seçenek 8 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op8" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label9" runat="server" Height="45px" Text="Seçenek 9 :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
-    <asp:TextBox ID="txt_Op9" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox>
+    <asp:TextBox ID="txt_Op2" runat="server" CssClass="txtBox" Height="7px" Width="200px"></asp:TextBox> 
     <br />
     <asp:Label ID="Label10" runat="server" Height="45px" Text="Süre :" Width="100px" CssClass="BeyazYazi"></asp:Label>&nbsp
     <asp:DropDownList ID="DDL_Sure" runat="server" Height="60px" Width="250px" CssClass="btn">
